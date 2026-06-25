@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "LNK Target-Discrepancy Dataset (controlled, adversarial, external-hashes)"
+abstract: >-
+  A labeled dataset of Windows Shortcut (.lnk) files for studying target
+  discrepancy, the condition where the target shown to a user (target UI)
+  differs from the target most plausibly resolved for execution (predicted
+  execution target). It contains a controlled, ground-truthed set
+  (CONSISTENT / CONFLICTING / UNKNOWN), a synthetic adversarial stress-test
+  set across nine attack categories, and a SHA-256 hash list for an external
+  malware set (samples not redistributed). Released as the dataset companion
+  to the undergraduate final project on rule-based detection of .lnk target
+  discrepancy.
+type: dataset
+authors:
+  - family-names: Kastanja
+    given-names: Yobel Alvino
+    affiliation: "Telkom University, School of Computing"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-06-25"
+url: "https://github.com/YobelAK/LNK-Discrepancy-dataset"
+repository-code: "https://github.com/YobelAK/LNK-Discrepancy-dataset"
+keywords:
+  - digital forensics
+  - Windows shortcut
+  - LNK
+  - target discrepancy
+  - rule-based detection
+  - dataset
+  - MS-SHLLINK
